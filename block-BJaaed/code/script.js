@@ -99,8 +99,7 @@ let data = {
 };
 
 
-
-let ul = document.querySelector("ul");
+let rootElement = document.querySelector("ul");
 
 data.books.forEach(element => {
     let li = document.createElement("li");
@@ -121,9 +120,5 @@ data.books.forEach(element => {
 
     li.append(img, h2, cite, button);
 
-    ul.append(li);
+    rootElement.append(`${li}`);
 });
-
-let allLi = document.querySelectorAll("li");
-
-allLi = Array.from(allLi);

@@ -155,8 +155,9 @@ body {
 }
 
 .container {
-    width: 1400px;
-    margin: 2rem;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0;
 }
 
 h1 {
@@ -171,7 +172,8 @@ h1 {
 
 li {
     text-align: center;
-    width: 30rem;
+    width: 34rem;
+    height: auto;
     background-color: white;
     padding: 1.5rem 0;
     margin: 0.6rem 0 0 0.6rem;
@@ -194,12 +196,12 @@ img {
 
 cite {
     color: var(--second);
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     display: block;
 }
 
 h2 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 button {
