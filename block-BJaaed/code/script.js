@@ -120,5 +120,5 @@ data.books.forEach(element => {
 
     li.append(img, h2, cite, button);
 
-    rootElement.append(`${li}`);
+    rootElement.append(li);
 });

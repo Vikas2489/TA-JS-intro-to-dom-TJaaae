@@ -136,19 +136,13 @@ table {
     border-spacing: 0;
 }
 
-
-/* COLORS */
-
-:root {
+COLORS:root {
     --primary: #397E81;
     --second: #959494;
     --bodyBackground: #FDF5E8;
 }
 
-
-/* HEADER */
-
-body {
+HEADER body {
     background-color: var(--bodyBackground);
     font-size: 1rem;
     font-family: 'roboto';
@@ -157,7 +151,7 @@ body {
 .container {
     max-width: 1300px;
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -173,7 +167,7 @@ h1 {
 li {
     text-align: center;
     width: 34rem;
-    height: auto;
+    height: 25rem;
     background-color: white;
     padding: 1.5rem 0;
     margin: 0.6rem 0 0 0.6rem;
@@ -182,6 +176,8 @@ li {
 ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 img,
@@ -207,7 +203,7 @@ h2 {
 button {
     color: white;
     background-color: var(--primary);
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     padding: 0.34rem;
     border-radius: 0.4rem;
     border: none;
