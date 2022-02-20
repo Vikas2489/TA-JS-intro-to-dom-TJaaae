@@ -136,13 +136,19 @@ table {
     border-spacing: 0;
 }
 
-COLORS:root {
+
+/* COLORS */
+
+:root {
     --primary: #397E81;
     --second: #959494;
     --bodyBackground: #FDF5E8;
 }
 
-HEADER body {
+
+/*  */
+
+body {
     background-color: var(--bodyBackground);
     font-size: 1rem;
     font-family: 'roboto';
